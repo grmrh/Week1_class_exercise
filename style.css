@@ -1,9 +1,14 @@
-h1 {
+header h1 {
     text-align: center;
     background-color: gray;
     padding: 10px;
     color: wheat;
     margin: 0px;
+}
+
+#innerLeftBar h3 {
+    margin: 0px;
+    padding: 10px;
 }
 
 .container {
@@ -12,7 +17,43 @@ h1 {
     height: 400px;
     background-color: lightgray;
 }
+
 #leftBar {
+    float: left;
+    width: 30%;
+}
+#about {
+    float: left;
+   width:35%;
+}
+#contactInfo {
+    float: left;
+    width: 35%;
+}
+
+#innerLeftBar {
+    height: 360px;
+    padding: 20px;
+    background-color: rgb(204, 204, 193);
+}
+#innerAbout {
+   height: 360px;    
+   padding: 20px;
+   background-color: rgba(167, 167, 106, 0.384);
+}
+#innerContactInfo {
+    padding: 20px;
+    height: 360px;
+    background-color: rgb(204, 204, 193);
+}
+
+#container:after {
+    display: table;
+    clear: both;
+}
+
+
+/* #leftBar {
     float: left;
     width: 25%;
     height: 400px;
@@ -23,22 +64,15 @@ h1 {
    height: 360px;    
    width: 30%;
    padding: 20px;
-   background-color: lightgoldenrodyellow;
+   background-color: rgba(167, 167, 106, 0.384);
 }
 #contactInfo {
     float: left;
     width: 35%;
     padding: 20px;
     height: 360px;
-    background-color: lightseagreen;
-}
-
-
-
-#container:after {
-    display: table;
-    clear: both;
-}
+    background-color: rgb(155, 207, 207);
+} */
 
 
 
